@@ -1,9 +1,5 @@
 // printing from 1to 10
-var a=1;
-while(a<=10){
-    console.log(a);
-    a++
-}
+
 
 // printing from 10 to 1
 var a=10;
@@ -59,3 +55,8 @@ while(a<userinput.length){
 }
 console.log(SumEven,"sum of Even digits in the given number")
 console.log(SumOdd,"sum of Odd digits in the given number")
+var a=1;
+while(a<=10){
+    console.log(a);
+    a++
+}
