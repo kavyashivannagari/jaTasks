@@ -22,7 +22,7 @@ let resumeType1=".pdf"
 let resumeType2=".dox"
 
 let uploadeResumeType=prompt("upload your resume here:")
-if(uploadeResumeType.endsWith(resumeType1 || resumeType2)){
+if(uploadeResumeType.endsWith(resumeType1)||uploadeResumeType.endsWith(resumeType2)){
     alert("uploaded successfully!!!")
 }
 else{
